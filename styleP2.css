@@ -1,0 +1,90 @@
+/* PARAMETRES GENERAUX DE POLICE */
+
+@font-face 
+{
+    font-family: "Raleway";
+    src: url("static/Raleway-Regular.ttf");
+}
+  
+  @font-face 
+{
+    font-family: "Raleway-thin";
+    src: url("static/Raleway-Thin.ttf");  
+}
+
+a 
+{
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+.bloc_page
+{
+        margin: auto;
+        width: 98%;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+.logo
+{
+    cursor: pointer; 
+}
+
+.header-navigation
+{
+    display: flex;
+    margin-right: 3%; 
+}
+header ul
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    color: #0065fc;
+}
+header ul li a:hover 
+{
+    border-top: 2px solid #0065fc;
+    padding-top: 21px;
+    color: #0065fc;  
+}
+
+header ul li
+{
+    margin-left: 28px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.inscrire a:hover 
+{
+    border-top: 2px solid #0065fc;
+    padding-top: 21px;
+}
+
+.inscrire a
+{
+    color: #0065fc;
+    margin-right: 0%;
+}
+
+.inscrire
+{
+    padding-left: 28px;
+}
