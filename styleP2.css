@@ -395,6 +395,54 @@ button {
     padding-right: 15px;
 }
 
+/* ACTIVITES */
+
+#activites {
+    margin-top: 40px;
+}
+
+.activites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activites h3 {
+    margin-left: 15px;
+    line-height: 3em;
+}
+
+.activites .double {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activites img {
+    height: 100%;
+    width: 240px;
+    border-radius: 10px 10px 0 0;
+}
+
+.activites .large img {
+    max-height: 320px;
+}
+
+.activites .medium1 img {
+    max-height: 150px;
+}
+
+.activites .medium2 img {
+    max-height: 126px;
+}
+
+.activites .small1 img {
+    max-height: 90px;
+}
+
+.activites .small2 img {
+    max-height: 114px;
+}
 
 
 
