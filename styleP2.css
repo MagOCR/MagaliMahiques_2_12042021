@@ -25,7 +25,7 @@ body
 main,
 .footer 
 {
-    max-width: 1170px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -89,10 +89,10 @@ i.no-star
 
 i.fa-info 
 {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     margin-right: 10px;
-    padding-top: 2px;
+    padding-top: 6px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 50%;
@@ -114,8 +114,7 @@ i.fa-info
 
 /* DETAILS */
 
-.details 
-{
+.details {
     margin-left: 15px;
 }
 
@@ -127,29 +126,26 @@ header,
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 
-.header 
-{
+.header {
     flex: 1;
 }
 
 /* NAVIGATION */
 
-nav 
-{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul 
-{
+nav ul {
     display: flex;
 }
 
-nav li 
-{
+nav li {
     padding: 0 20px;
     line-height: 40px;
 }
@@ -161,6 +157,8 @@ nav li a:active
     margin-top: -1px;
     color: #0065fc;
     border-top: 1px solid #0065fc;
+    text-align: center;
+    width: 130%;
     font-weight: bold;
 }
 
@@ -177,6 +175,7 @@ ul
 }
 
 .register a {
+    padding: 20px 20px;
     font-weight: bold;
     color: #0065fc;
 }
@@ -189,8 +188,7 @@ li.register:hover {
 /* SEARCH */
 
 
-.recherche 
-{
+.recherche {
     display: flex;
     justify-content: space-between;
     width: 350px;
@@ -199,8 +197,7 @@ li.register:hover {
     border-radius: 10px;
 }
 
-i.fa-map-marker-alt 
-{
+i.fa-map-marker-alt {
     width: 40px;
     line-height: 40px;
     text-align: center;
@@ -237,23 +234,20 @@ button {
 
 /* FILTERS */
 
-.filtres 
-{
+.filtres {
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
 }
 
-.filtres p 
-{
+.filtres p {
     margin: 8px 20px 0 0;
     line-height: 50px;
     font-size: 1em;
     font-weight: bold;
 }
 
-.filtres i 
-{
+.filtres i {
     height: 40px;
     width: 40px;
     margin-right: 20px;
@@ -263,15 +257,13 @@ button {
     border-radius: 50%
 }
 
-.filtres ul 
-{
+.filtres ul {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
 }
 
-.filtres li 
-{
+.filtres li {
     display: flex;
     align-items: center;
     margin: 10px;
@@ -298,7 +290,7 @@ button {
 
 #hebergements 
 {
-    max-width: 780px;
+    max-width: 960px;
     border-radius: 10px;
     background: #f2f2f2;
     flex: 1;
@@ -309,6 +301,7 @@ button {
 {
     margin-top: 30px;
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .hebergements 
@@ -319,76 +312,69 @@ button {
     margin: auto;
 }
 
-.hebergements .photos 
-{
+.hebergements .photos {
     padding: 5px;
     background: #fff;
 }
 
-.hebergements img 
-{
+.hebergements img {
     height: 100%;
-    width: 190px;
-    max-height: 90px;
+    width: 240px;
+    max-height: 120px;
     border-radius: 10px 10px 0 0;
 }
 
-#hebergements p.plus 
-{
+#hebergements p.plus {
     font-weight: bold;
 }
 
 /* POPULAIRES */
 
-#populaires 
-{
-    width: 340px;
+#populaires {
+    width: 420px;
     border-radius: 10px;
     background: #f2f2f2;
+    padding: 37px 35px 20px;
 }
 
-#populaires h2 
-{
+#populaires h2 {
     display: inline-block;
     width: 80%;
-    margin-top: 30px;
-    margin-left: 30px;
+   padding-left: 6%;
 }
 
-#populaires i.fa-chart-line 
-{
+#populaires i.fa-chart-line {
     color: black;
+    font-size: 1.5em;
+    padding-left: 8%;   
 }
 
-.populaires 
-{
+.populaires {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
     align-items: center;
+   
 }
 
-.populaires img 
-{
-    height: 110px;
+.populaires img {
+    height: 120px;
     width: 100%;
-    max-width: 100px;
+    max-width: 130px;
     border-radius: 10px 0 0 10px;
 }
 
-.populaires .photos 
-{
-    max-width: 270px;
+.populaires .photos {
+    width: 320px;
     padding: 5px;
     background: #fff;
 }
 
-.populaires .photos a 
-{
+.populaires .photos a {
     display: flex;
 }
 
-.populaires .details 
-{
+.populaires .details {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -445,36 +431,34 @@ button {
 }
 
 
-
 /* FOOTER */
 
-footer 
-{
+#footer {
+    
     margin-top: 40px;
     padding-top: 40px;
     background: #f2f2f2;
 }
 
-.footer 
-{
+#footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-footer h3 
+.a-propos
 {
+    margin-left: 40px;
+}
+footer h3 {
     margin-bottom: 15px;
 }
 
-footer ul 
-{
+footer ul {
     width: 340px;
     margin-bottom: 20px;
     list-style-type: none;
 }
 
-footer li 
-{
+footer li {
     line-height: 2em;
 }
