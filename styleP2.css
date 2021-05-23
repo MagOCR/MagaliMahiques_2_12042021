@@ -14,7 +14,7 @@
 
 body 
 {
-    font-family: "Raleway Regular 400", "Sans serif";
+    font-family: "Raleway", "Sans serif";
     margin: 0px;
    
 }
@@ -55,7 +55,7 @@ h3
 
 p 
 {
-    font-size: 0.95em;
+    font-size: 0.85em;
 }
 
 a 
@@ -400,56 +400,72 @@ margin-bottom: 30px;
     padding-right: 15px;
 }
 
-/* ACTIVITES */
+/*Activités*/
 
 #activites {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
-#activites h2 {
-    margin-bottom: 30px;
-}
-.activites {
+.liste-activites {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 20px;
 }
-
-.activites h3 {
-    margin-left: 15px;
-    line-height: 3em;
-}
-
-.activites .double {
+.activite1, .activite2-activite3, .activite4, .activite5-activite6{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 23%;
+    height: 450px;
 }
 
-.activites img {
-    height: 100%;
-    width: 240px;
-    border-radius: 10px 10px 0 0;
+.vignette-activite{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px #999;
 }
-
-.activites .large img {
-    max-height: 320px;
+.vignette-activite:hover{
+    transform: scale(1.05);
+    transition-duration: 500ms;
 }
-
-.activites .medium1 img {
-    max-height: 150px;
+.vignette-activite .libelle {
+    margin: 15px 0 15px 0;
 }
-
-.activites .medium2 img {
-    max-height: 126px;
+.libelle {
+    padding-left: 15px;
 }
-
-.activites .small1 img {
-    max-height: 90px;
+.activite1 .photo-activite1 img,
+.activite4 .photo-activite4 img
+{
+    object-fit: cover;
+    height: 395px;
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
 }
-
-.activites .small2 img {
-    max-height: 114px;
+.activite2-activite3 .photo-activite2 img{
+    object-fit: cover;
+    height: 170px;
+    width: 100%;
+    border-radius: 20px 20px 0 0 ; 
+}
+.activite2-activite3 .photo-activite3 img{
+    object-fit: cover;
+    height: 130px;
+    width: 100%;
+    border-radius: 20px 20px 0 0 ; 
+}
+.activite5-activite6 .photo-activite5 img{
+    object-fit: cover;
+    height: 130px;
+    width: 100%;
+    border-radius: 20px 20px 0 0 ; 
+}
+.activite5-activite6 .photo-activite6 img{
+    object-fit: cover;
+    height: 170px;
+    width: 100%;
+    border-radius: 20px 20px 0 0 ; 
 }
 
 
@@ -617,31 +633,35 @@ i.fa-info  {
 }
 .details p {
     margin: 0;
-   
 }
-#activites {
-    max-width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.activites {  
-    display: flex;
-    flex-direction: column;
-}
-.activites a {
-    display:block ;
+.activite1, .activite2-activite3, .activite4, .activite5-activite6{
     width: 100%;
-    max-height: 200px;
-    margin: 0px 0px 15px 0px;
-    font-size: 1.2em;
+    margin: 20px;
 }
-.activites .large img, .activites .medium1 img, .activites .medium2 img, .activites .small1 img, .activites.small2 img {
-    max-height: 120px;  
+.activite4 {
+    margin-top: 60px;
 }
-.activites a h3 {
-    line-height: 0px;
-    font-size: 0.7em;
+.activite1, .activite4 {
+    height: 200px;
 }
+.activite2-activite3, .activite5-activite6{
+    height: 400px;
+}
+.activite1 .photo-activite1 img,
+.activite2-activite3 .photo-activite2 img,
+.activite2-activite3 .photo-activite3 img,
+.activite4 .photo-activite4 img,
+.activite5-activite6 .photo-activite5 img,
+.activite5-activite6 .photo-activite6 img {
+    height: 150px;
+} 
+#activites h2 {
+    margin: 40px 0 0 20px;
+}
+.vignette-activite {
+    margin-bottom: 40px;
+}
+
 #footer {
     padding : 20px ;
 }
