@@ -52,7 +52,7 @@ h2
 h3 
 {
     margin-top: 5px;
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 
 p 
@@ -412,10 +412,10 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 15px;
+    padding-right: 9px;
 }
 
-/*ACTIVITES*/
+/*Activités*/
 
 #activites {
     margin-bottom: 80px;
@@ -672,7 +672,7 @@ i.fa-info  {
     width: 100%
 }
 .hebergements img {
-    max-height: 100px;
+    max-height: 140px;
 }
 .details p {
     margin: 0;
@@ -720,7 +720,7 @@ width: 45%;
 margin-bottom: 40px;
 }
 .hebergements .details {
-    margin-left: 0px;
+    margin-left: 9px;
 }
 .populaires .photos {
 margin-bottom: 40px;
@@ -728,20 +728,26 @@ height: 200px;
 }
 .populaires a img {
     max-width: 200px;
-    height: 170px; 
+    height: 188px; 
 }
 }
 
-@media all and (min-width: 858px) and (max-width: 1079px) {
- #footer {
-flex-wrap: nowrap;
-    }    
-}
 
 @media all and (min-width: 720px) and (max-width: 858px){
     #footer {
         flex-direction: column;
     }
+}
+@media all and (min-width: 900px) and (max-width: 1200px){
+    .liste-activites {
+        width: 100%;
+    }
+    .vignette-activite {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 }
